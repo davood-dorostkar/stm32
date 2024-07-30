@@ -109,7 +109,7 @@ int main(void)
   while (1)
   {
 
-	  LD3_GPIO_Port->ODR^=LD4_Pin; //ld3 orange ld4 green
+	  LD3_GPIO_Port->ODR^=LD3_Pin; //ld3 orange ld4 green
 	  HAL_Delay(100);
     /* USER CODE END WHILE */
     MX_USB_HOST_Process();
