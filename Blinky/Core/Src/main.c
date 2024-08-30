@@ -96,7 +96,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_Delay(1000);
+	  HAL_Delay(3000);
 	  GPIOD->ODR^=1<<12;//green
 	 // GPIOD->ODR^=1<<13;//orange
 	  //GPIOD->ODR^=1<<14;//red
